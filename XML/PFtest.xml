@@ -1,113 +1,83 @@
 <?xml version="1.0"?>
 <data>
 	<character name = "Test">
-		<CR>																							
-		</CR>
-		<XP>
-		</XP>
-		<Race>
-		</Race>
-		<Class>
-		</Class>
-		<Alignment>
-		</Alignment>
-		<Size>
-		</Size>
-		<Type>
-		</Type>
-		<SubType>
-		</SubType>
-		<Init>
-		</Init>	
-		<Senses>
-		</Senses>
-		<Aura>
-		</Aura>
-		AC	
-		Touch AC	
-		Flat-Footed 
-		AC	
-		AC_Mods	
-		HP	
-		HD	
-		HP_Mods	
-		Fort	
-		Ref	
-		Will	
-		Save_Mods	
-		DefensiveAbilities	
-		DR	
-		Immune	
-		Resist	
-		SR	
-		Weaknesses	
-		Speed	
-		Speed_Mod	
-		Melee	
-		Ranged	
-		Space	
-		Reach	
-		SpecialAttacks	
-		SpellLikeAbilities	
-		SpellsKnown	
-		SpellsPrepared	
-		SpellDomains	
-		Str	
-		Dex	
-		Con	
-		Int	
-		Wis	
-		Cha	
-		AbilitiyScore_Mods	
-		BaseAtk	
-		CMB	
-		CMD	
-		Feats	
-		Skills	
-		RacialMods	
-		Languages	
-		SQ	
-		Environment	
-		Organization	
-		Treasure	
-		Description_Visual	
-		Group	
-		IsTemplate	
-		SpecialAbilities	
-		Description	
-		Gender	
-		Bloodline	
-		ProhibitedSchools	
-		BeforeCombat	
-		DuringCombat	
-		Morale	
-		Gear	
-		OtherGear	
-		Vulnerability	
-		Note	
-		CharacterFlag	
-		CompanionFlag	
-		Fly	
-		Climb	
-		Burrow	
-		Swim	
-		Land	
-		TemplatesApplied	
-		OffenseNote	
-		BaseStatistics	
-		ExtractsPrepared	
-		AgeCategory	
-		Mystery	
-		ClassArchetypes	
-		Patron	
-		CompanionFamiliarLink	
-		FocusedSchool	
-		Traits	
-		AlternateNameForm	
-		LinkText	
-		id	
-		UniqueMonster							
-		
-		
+		<CR> 1 </CR>
+		<XP> 1 </XP>
+		<Race> Human </Race>
+		<Class> Commoner </Class>
+		<Alignment> NN </Alignment>
+		<Size> Medium </Size>
+		<Type> Humanoid </Type>
+		<SubType> Human </SubType>
+		<Init> 0 </Init>	
+		<Senses> Sight </Senses>
+		<Aura> None </Aura>
+		<AC> 10 </AC>
+		<TouchAC> 10 </TouchAC>
+		<Flat-FootedAC> 10 </Flat-FootedAC>
+		<AC_Mods> None </AC_Mods>
+		<HP> 5 </HP>	
+		<HD> 1 </HD>
+		<HP_Mods> 0 </HP_Mods>
+		<Fort> 0 </Fort>
+		<Ref> 0 </Ref>	
+		<Will> 0 </Will>
+		<Save_Mods> None </Save_Mods>
+		<DefensiveAbilities> None </DefensiveAbilities>
+		<DR> 0 </DR>
+		<Immune> None </Immune>	
+		<Resist>  </Resist>
+		<SR> </SR>
+		<Weaknesses> </Weaknesses>
+		<Speed>	</Speed>
+		<Speed_Mod>	</Speed_Mod>
+		<Melee>	</Melee>
+		<Ranged> </Ranged>
+		<Space> </Space>	
+		<Reach> </Reach>
+		<SpecialAttacks> </SpecialAttacks>
+		<SpellLikeAbilities> </SpellLikeAbilities>
+		<SpellsKnown> </SpellsKnown>
+		<SpellsPrepared> </SpellsPrepared>
+		<Str> </Str>	
+		<Dex> </Dex>	
+		<Con> </Con>	
+		<Int> </Int>	
+		<Wis> </Wis>	
+		<Cha> </Cha>
+		<AbilitiyScore_Mods> </AbilitiyScore_Mods>
+		<BaseAtk> </BaseAtk>
+		<CMB> </CMB>	
+		<CMD> </CMD>
+		<Feats> </Feats>
+		<Skills> </Skills>
+		<Languages> </Languages>
+		<SQ> </SQ>
+		<Environment> </Environment>	
+		<Organization> </Organization>
+		<Treasure> </Treasure>
+		<SpecialAbilities> </SpecialAbilities>
+		<Description> </Description>
+		<Gender> </Gender>
+		<BeforeCombat> </BeforeCombat>	
+		<DuringCombat> </DuringCombat>
+		<Morale> </Morale>	
+		<Gear> </Gear>
+		<OtherGear> </OtherGear>
+		<Vulnerability> </Vulnerability>
+		<Note> </Note>
+		<CharacterFlag> </CharacterFlag>	
+		<CompanionFlag> </CompanionFlag>
+		<Fly> </Fly>
+		<Climb> </Climb>
+		<Burrow> </Burrow>
+		<Swim> </Swim>	
+		<Land> </Land>
+		<TemplatesApplied> </TemplatesApplied>
+		<OffenseNote> </OffenseNote>	
+		<AgeCategory> </AgeCategory>
+		<ClassArchetypes> </ClassArchetypes>
+		<Traits> </Traits>
+		<UniqueMonster> </UniqueMonster>
 	</character>
 </data>

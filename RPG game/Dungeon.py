@@ -17,6 +17,7 @@ class DungeonFloor:
 
     FloorImage='OpenTile.png'
     WallImage='StoneTile.png'
+    DebugImage='DebugTile.png'
     
     '''
     New Algorithm
@@ -68,7 +69,7 @@ class DungeonFloor:
 
         #5a: Check if there is room
         if Wall is 1:#North Wall
-            RoomPos=(WallTilePos[0]-RoomSize[0],WallTilePos[1]-RoomSize[1])
+            RoomPos=(WallTilePos[0]-(RoomSize[0]-1),WallTilePos[1]-(RoomSize[1]-1))
         elif Wall is 2:#East Wall
             RoomPos=(WallTilePos[0],WallTilePos[1])
         elif  Wall is 3:#South Wall
@@ -88,15 +89,15 @@ class DungeonFloor:
 
 
             #5c: Connect Features
-            '''if Wall is 1:#North Wall
-                self.Map.changeTile((WallTilePos[0],WallTilePos[1]-1),self.FloorImage,False,True)    
+            if Wall is 1:#North Wall
+                self.Map.changeTile((WallTilePos[0],WallTilePos[1]),self.DebugImage,False,True)    
             elif Wall is 2:#East Wall
-                self.Map.changeTile((WallTilePos[0],WallTilePos[1]-1),self.FloorImage,False,True)
+                self.Map.changeTile((WallTilePos[0],WallTilePos[1]),self.DebugImage,False,True)
             elif  Wall is 3:#South Wall
-                self.Map.changeTile((WallTilePos[0],WallTilePos[1]-1),self.FloorImage,False,True)
+                self.Map.changeTile((WallTilePos[0]+1,WallTilePos[1]),self.DebugImage,False,True)
             elif Wall is 4:#West Wall
-                self.Map.changeTile((WallTilePos[0],WallTilePos[1]-1),self.FloorImage,False,True)
-            '''
+                self.Map.changeTile((WallTilePos[0],WallTilePos[1]),self.DebugImage,False,True)
+            
 
             
             #6: repeat 2-5 until dungeon is full
